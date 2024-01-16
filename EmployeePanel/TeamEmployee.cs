@@ -90,6 +90,14 @@ namespace EmployeePanel
             return counter;
         }
 
+        public void Summary()
+        {
+            foreach(Employee employee in teams)
+            {
+                Console.WriteLine("Employee: " + employee.Name + " " + employee.Surname + ", Condition: " + employee.Condition + ", Birthday: " + employee.Birthday + ", Salary: " + employee.Salary + " PLN");
+            }
+        }
+
         public IEnumerable<Employee> SortByName()
         {
             IEnumerable <Employee> sortedEmployees = teams.OrderBy(e => e.Name);
