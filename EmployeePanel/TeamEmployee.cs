@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace EmployeePanel
 {
-    class TeamEmployee
+    public class TeamEmployee
     {
         public string TeamName { get; set; }
         public int TeamLimit { get; set; }

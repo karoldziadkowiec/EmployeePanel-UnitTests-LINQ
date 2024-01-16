@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeePanel
 {
-    enum EmployeeCondition
+    public enum EmployeeCondition
     {
         PRESENT, 
         DELEGATION, 

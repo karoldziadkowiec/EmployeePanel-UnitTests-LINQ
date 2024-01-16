@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace EmployeePanel
 {
-    class TeamContainer
+    public class TeamContainer
     {
-        Dictionary<string, TeamEmployee> employees = new Dictionary<string, TeamEmployee>();
+        public Dictionary<string, TeamEmployee> employees = new Dictionary<string, TeamEmployee>();
 
         public void AddTeam(string enteredName, int enteredLimit)
         {

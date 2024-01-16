@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeePanel
 {
-    class Employee : IComparable<Employee>
+    public class Employee : IComparable<Employee>
     {
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -14,6 +14,7 @@ namespace EmployeePanel
         public DateTime Birthday { get; set; }
         public double Salary { get; set; }
 
+        public Employee() { }
         public Employee (string name, string surname, EmployeeCondition condition, DateTime birthday, double salary)
         {
             Name = name;
