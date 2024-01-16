@@ -54,7 +54,7 @@ namespace EmployeePanelTests
             int expectedResult = 0;
 
             // Act
-            var result = employee1.CompareTo(employee1, employee2);
+            var result = employee1.CompareTo(employee2);
 
             // Assert
             Assert.AreEqual(expectedResult, result);
@@ -69,7 +69,7 @@ namespace EmployeePanelTests
             int expectedResult = -1;
 
             // Act
-            var result = employee1.CompareTo(employee1, employee2);
+            var result = employee1.CompareTo(employee2);
 
             // Assert
             Assert.AreEqual(expectedResult, result);
@@ -84,7 +84,7 @@ namespace EmployeePanelTests
             int expectedResult = 1;
 
             // Act
-            var result = employee1.CompareTo(employee1, employee2);
+            var result = employee1.CompareTo(employee2);
 
             // Assert
             Assert.AreEqual(expectedResult, result);

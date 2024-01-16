@@ -80,8 +80,8 @@ namespace EmployeePanel
 
         public IEnumerable<Employee> SearchPartial(string enteredPartialString)
         {
-            IEnumerable<Employee> newEmployees = teams.Where(e => e.Name.Contains(enteredPartialString) || e.Surname.Contains(enteredPartialString));
-            return newEmployees;
+            IEnumerable<Employee> searchedEmployees = teams.Where(e => e.Name.Contains(enteredPartialString) || e.Surname.Contains(enteredPartialString));
+            return searchedEmployees;
         }
 
         public int CountByCondition(EmployeeCondition condition)
@@ -90,24 +90,16 @@ namespace EmployeePanel
             return counter;
         }
 
-        public void Summary()
-        {
-            foreach(Employee employee in teams)
-            {
-                Console.WriteLine("Employee: " + employee.Name + " " + employee.Surname + ", Condition: " + employee.Condition + ", Birthday: " + employee.Birthday + ", Salary: " + employee.Salary + " PLN");
-            }
-        }
-
         public IEnumerable<Employee> SortByName()
         {
-            IEnumerable <Employee> newEmployees = teams.OrderBy(e => e.Name);
-            return newEmployees;
+            IEnumerable <Employee> sortedEmployees = teams.OrderBy(e => e.Name);
+            return sortedEmployees;
         }
 
         public IEnumerable<Employee> SortBySalary()
         {
-            IEnumerable<Employee> newEmployees = teams.OrderByDescending(e => e.Salary);
-            return newEmployees;
+            IEnumerable<Employee> sortedEmployees = teams.OrderByDescending(e => e.Salary);
+            return sortedEmployees;
         }
 
         public double MaxSalaryInTeam()

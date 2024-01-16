@@ -31,7 +31,7 @@ namespace EmployeePanel
         }
         public int CompareTo(Employee? other)
         {
-            throw new NotImplementedException();
+            return this.Surname.CompareTo(other.Surname);
         }
 
         public int CompareTo(Employee employee1, Employee employee2)

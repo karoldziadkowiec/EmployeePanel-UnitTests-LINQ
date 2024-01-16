@@ -42,7 +42,7 @@ namespace EmployeePanel
                 int currentSize = team.teams.Count;
                 int limit = team.TeamLimit;
 
-                double percent = (double)currentSize / limit * 100;
+                double percent = Convert.ToDouble(currentSize / limit * 100);
 
                 Console.WriteLine("Group: " + team.TeamName + ", Group filling: " + percent + " %");
             }
