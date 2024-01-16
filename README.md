@@ -19,9 +19,13 @@ Program functionalities:
 - returning empty list of teams
 - writing information to standard output containing: name team and its percentage filling
 
-Use of the above functionalities:
+Unit test explorer for created methods:
 ![1](https://github.com/karoldziadkowiec/EmployeePanel-UnitTests-LINQ/blob/master/photos/1.png)
+
+Example of using LINQ Queries in a project:
 ![2](https://github.com/karoldziadkowiec/EmployeePanel-UnitTests-LINQ/blob/master/photos/2.png)
+
+Using of the above functionalities:
 ![3](https://github.com/karoldziadkowiec/EmployeePanel-UnitTests-LINQ/blob/master/photos/3.png)
 ![4](https://github.com/karoldziadkowiec/EmployeePanel-UnitTests-LINQ/blob/master/photos/4.png)
 ![5](https://github.com/karoldziadkowiec/EmployeePanel-UnitTests-LINQ/blob/master/photos/5.png)
