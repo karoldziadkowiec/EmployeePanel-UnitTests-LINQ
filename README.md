@@ -1,6 +1,6 @@
 # EmployeePanel + Unit Tests + LINQ Queries
 
-The simple console application in C# for effective management of employee's data along with the organization of teams and employee's activities. Unit tests (MS Tests) were performed for all methods. The program uses LINQ Queries, the IComparable interface to compare elements.
+The simple console application in **C#** for effective management of employee's data along with the organization of teams and employee's activities. Unit tests (**MS Tests**) were performed for all methods. The program uses **LINQ** Queries, the **IComparable** interface to compare elements.
 
 Program functionalities:
 - adding a employee to the team
